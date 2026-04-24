@@ -30,7 +30,7 @@ app.add_middleware(
 )
 
 # MongoDB Configuration
-MONGO_URL = os.getenv("MONGO_URL")
+MONGO_URL = os.getenv("Mongo_URL")
 admin_email_ = os.getenv("ADMIN_EMAIL")
 pass_email = os.getenv("ADMIN_PASSWORD")
 
